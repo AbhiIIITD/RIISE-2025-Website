@@ -5,6 +5,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import NetworkBackground from './components/NetworkBackground';
 import Registration from './components/Register';
+// import EventSchedule from './components/Schedule.tsx';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <About />
       <Showcases />
+      {/* <EventSchedule /> */}
       <Registration />
       <Footer />
     </div>

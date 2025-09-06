@@ -72,7 +72,7 @@ const Registration: React.FC = () => {
                   </p>
                   <ul className="space-y-2 text-slate-300 mb-4">
                     <li>Theme: <span className="px-2 py-1 bg-slate-700 rounded-full text-sm">Building in the Times of AI</span></li>
-                    <li>Deadline: <strong>September 5, 2025, 11:59 PM</strong></li>
+                    <li>Deadline: <strong>September 8, 2025, 11:59 PM</strong></li>
                     <li>Template: Portrait / Landscape (customisation allowed)</li>
                   </ul>
                   <a
