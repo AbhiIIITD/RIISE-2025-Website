@@ -5,6 +5,8 @@ import About from './components/About';
 import Footer from './components/Footer';
 import NetworkBackground from './components/NetworkBackground';
 import Registration from './components/Register';
+import KeynoteSpeakers from './components/KeynoteSpeakers';
+import Panellists from './components/Panellists';
 // import EventSchedule from './components/Schedule.tsx';
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <KeynoteSpeakers />
+      <Panellists />
       <Showcases />
       {/* <EventSchedule /> */}
       <Registration />
