@@ -66,7 +66,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        {/* <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           <div className="text-center">
             <div className="text-3xl lg:text-4xl font-bold text-blue-600 mb-2">200+</div>
             <div className="text-slate-600 font-medium">Research Presentations</div>
@@ -83,11 +83,11 @@ const Hero: React.FC = () => {
             <div className="text-3xl lg:text-4xl font-bold text-blue-600 mb-2">1000+</div>
             <div className="text-slate-600 font-medium">Attendees Expected</div>
           </div>
-        </div>
+        </div> */}
 
         {/* Scroll Indicator */}
         <div className="animate-bounce">
-          <ChevronDown className="w-6 h-6 text-slate-400 mx-auto" />
+          <a href="#about"><ChevronDown className="w-6 h-6 text-slate-400 mx-auto" /></a>
         </div>
       </div>
     </section>
