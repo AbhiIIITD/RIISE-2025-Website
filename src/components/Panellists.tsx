@@ -40,9 +40,9 @@ const panels = [
         imgSrc: '/riise2025/p2-praveen-pandey.png',
       },
       {
-        name: 'To Be Announced',
-        title: 'Panellist',
-        imgSrc: 'https://placehold.co/800x400/000000/FFFFFF/png?text=TBA',
+        name: 'Group Captain (Dr.) Rajiv Kumar Narang',
+        title: 'Vayu Sena Medal (Retd.), Senior Fellow at MP-IDSA, a former IAF helicopter pilot, flight safety expert, and author specializing in aviation, drones, and defence strategy.',
+        imgSrc: '/riise2025/p2-rajiv-kumar-narang.png',
       },
       {
         name: 'To Be Announced',
@@ -54,9 +54,9 @@ const panels = [
   {
     title: "The Next Decade: Building a Society Ready for AI-First Futures",
     moderator: {
-      name: 'To Be Announced',
-      title: 'Moderator',
-      imgSrc: 'https://placehold.co/800x400/000000/FFFFFF/png?text=TBA',
+      name: 'Tilak Mishra',
+      title: 'Wharton alum, coach, mentor, entrepreneur, and seasoned M&A professional',
+      imgSrc: '/riise2025/p3-tilak-mishra.png',
     },
     panellists: [
       {
@@ -70,9 +70,9 @@ const panels = [
         imgSrc: '/riise2025/p3-maya-sherman.png',
       },
       {
-        name: 'To Be Announced',
+        name: 'Ms. Neha Mishra',
         title: 'Panellist',
-        imgSrc: 'https://placehold.co/800x400/000000/FFFFFF/png?text=TBA',
+        imgSrc: '/riise2025/p3-neha-mishra.png',
       },
     ],
   },

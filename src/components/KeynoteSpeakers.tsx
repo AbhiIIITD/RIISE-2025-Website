@@ -18,7 +18,7 @@ type Speaker = { name: string; accolade?: string; imgSrc: string };
 
 const KeynoteSpeakers: React.FC = () => {
     return (
-        <section id="keynote-speakers" className="py-20 lg:py-32 bg-slate-50 relative z-10">
+        <section id="keynote-speakers" className="py-16 bg-slate-50 relative z-10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl lg:text-5xl font-serif font-bold text-slate-800 mb-6">Keynote Speakers</h2>
