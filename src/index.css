@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import './styles/fonts.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,6 +32,10 @@
   .glass-effect {
     @apply bg-white/80 backdrop-blur-sm border border-white/20;
   }
+}
+
+@theme {
+  --font-lucidity-expand: 'lucidity-expand', 'sans-serif'
 }
 
 /* Custom animations */

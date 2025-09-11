@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
         style={{
-          backgroundImage: "url('/bg.jpg')",
+          backgroundImage: "url('/riise2025/bg.jpg')",
         }}
       />
       
@@ -34,12 +34,12 @@ const Hero: React.FC = () => {
             />
 
             {/* Main Title */}
-            <span className="font-serif text-slate-800 text-5xl sm:text-6xl lg:text-7xl">
+            <span className="font-lucidity-expand text-slate-800 text-5xl sm:text-6xl lg:text-7xl">
               RIISE
             </span>
 
             {/* Subtitle */}
-            <span className="font-serif bg-gradient-to-r from-blue-600 via-blue-700 to-emerald-600 bg-clip-text text-transparent text-3xl sm:text-4xl lg:text-5xl mt-2">
+            <span className="font-serif bg-blue-800 bg-clip-text text-transparent text-3xl sm:text-4xl lg:text-5xl mt-2">
               Research Innovation and Incubation ShowcasE
             </span>
           </h1>
