@@ -1,52 +1,44 @@
 import React from 'react';
-import { FileText, Package, Rocket, Lightbulb, ArrowRight, Calendar } from 'lucide-react';
+import { FileText, Package, Rocket, Lightbulb, Eye } from 'lucide-react';
 
 const Showcases: React.FC = () => {
   const showcases = [
     {
-      icon: FileText,
-      title: "Call for Posters",
-      description: "Submit your research findings and innovative ideas through compelling poster presentations.",
-      details: ["Research Posters", "Innovation Displays", "Interactive Demos"],
-      deadline: "September 8, 2025",
-      gradient: "from-blue-600 to-blue-800",
-      bgColor: "bg-blue-50",
-      borderColor: "border-blue-200",
-      link: "https://riise.accubate.app/ext/form/8510/1/apply"
+      icon: Lightbulb,
+      title: "Research Tank",
+      description: "Watch researchers pitch their bold ideas to panels in a Shark Tank-style session full of energy and insights.",
+      details: ["5-Minute Pitches", "Expert Feedback", "Funding Opportunities"],
+      gradient: "from-cyan-600 to-cyan-800",
+      bgColor: "bg-cyan-50",
+      borderColor: "border-cyan-200",
     },
     {
       icon: Package,
       title: "Product Showcase",
-      description: "Demonstrate cutting-edge products and prototypes that emerged from research initiatives.",
-      details: ["Live Demonstrations", "Technical Presentations", "User Experience"],
-      deadline: "September 8, 2025",
+      description: "Discover cutting-edge products and prototypes that bring research ideas into real-world impact.",
+      details: ["Live Demonstrations", "Technical Insights", "User Experience"],
       gradient: "from-emerald-600 to-emerald-800",
       bgColor: "bg-emerald-50",
       borderColor: "border-emerald-200",
-      link: "https://riise.accubate.app/ext/form/8345/1/apply"
     },
     {
       icon: Rocket,
       title: "Startup Showcase",
-      description: "Present your startup journey, business model, and growth potential to investors and mentors.",
-      details: ["Pitch Presentations", "Business Models", "Investment Opportunities"],
-      deadline: "September 8, 2025",
+      description: "Meet startups and founders who are transforming their research into scalable ventures with real potential.",
+      details: ["Pitch Sessions", "Business Models", "Growth Journeys"],
       gradient: "from-purple-600 to-purple-800",
       bgColor: "bg-purple-50",
       borderColor: "border-purple-200",
-      link: "https://riise.accubate.app/ext/form/8576/1/apply"
     },
     {
-      icon: Lightbulb,
-      title: "Research Tank",
-      description: "Shark Tank-style competition where researchers pitch their innovations to expert panels.",
-      details: ["5-Minute Pitches", "Expert Evaluation", "Funding Opportunities"],
-      deadline: "September 8, 2025",
-      gradient: "from-cyan-600 to-cyan-800",
-      bgColor: "bg-cyan-50",
-      borderColor: "border-cyan-200",
-      link: "https://riise.accubate.app/ext/form/8477/1/apply"
-    }
+      icon: FileText,
+      title: "Posters & Demos",
+      description: "Explore innovative research findings and creative ideas through visually engaging posters and interactive demos.",
+      details: ["Research Posters", "Innovation Displays", "Interactive Demos"],
+      gradient: "from-blue-600 to-blue-800",
+      bgColor: "bg-blue-50",
+      borderColor: "border-blue-200",
+    },
   ];
 
   return (
@@ -54,11 +46,12 @@ const Showcases: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-serif font-bold text-slate-800 mb-6">
-            Showcase Opportunities
+            Witness the Showcases
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Multiple platforms to present your research, innovations, and entrepreneurial ventures 
-            to a diverse audience of academics, industry experts, and investors.
+            Experience groundbreaking research, cutting-edge products, and bold startup ideas — 
+            all presented live at <strong>RIISE 2025</strong>. 
+            Join us for an inspiring day of innovation and technology in action.
           </p>
         </div>
 
@@ -91,29 +84,13 @@ const Showcases: React.FC = () => {
                   ))}
                 </div>
                 
-                <div className="flex items-center justify-between">
-                  <div className="text-sm text-slate-500">
-                    <Calendar className="w-4 h-4 inline mr-1" />
-                    Deadline: <span className="font-medium text-red-600">{showcase.deadline}</span>
-                  </div>
-                 <a
-                    href={showcase.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-md"
-                  >
-                    <span>Submit</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </a>
+                <div className="flex items-center text-blue-700 font-medium text-sm">
+                  <Eye className="w-4 h-4 mr-2" />
+                  Live at RIISE 2025 on September 13, 2025
                 </div>
               </div>
             );
           })}
-        </div>
-
-        {/* Schedule Preview */}
-        <div id="schedule" className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 lg:p-12 shadow-xl border border-slate-200/50">
-          <img src = "/riise2025/schedule.jpg" />
         </div>
       </div>
     </section>
