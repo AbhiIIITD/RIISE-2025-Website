@@ -6,8 +6,9 @@ import Footer from './components/Footer';
 import NetworkBackground from './components/NetworkBackground';
 import Registration from './components/Register';
 import KeynoteSpeakers from './components/KeynoteSpeakers';
-import Panellists from './components/Panellists';
-// import EventSchedule from './components/Schedule.tsx';
+import Panelists from './components/Panelists';
+import PitchCafe from './components/PitchCafe';
+import EventSchedule from './components/Schedule.tsx';
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
       <Hero />
       <About />
       <KeynoteSpeakers />
-      <Panellists />
+      <Panelists />
       <Showcases />
-      {/* <EventSchedule /> */}
+      <PitchCafe />
+      <EventSchedule />
       <Registration />
       <Footer />
     </div>

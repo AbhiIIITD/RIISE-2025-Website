@@ -4,13 +4,13 @@ import { Star } from 'lucide-react';
 const keynoteSpeakers = [
     {
         name: 'Mr. Anshuman Tripathi',
-        accolade: "Member of India's National Security Advisory Board",
-        imgSrc: '/riise2025/kn-anshuman-tripathi.png',
+        accolade: "Former Member of India's National Security Advisory Board",
+        imgSrc: '/riise2025/keynote_speakers/kn-anshuman-tripathi.png',
     },
     {
         name: 'Mr. Ravindran Ramamurthy',
         accolade: 'Electrical Engineer, 40+ years of global experience in DCS, software engineering, identity management, and biometric solutions across Siemens, HCL, and major banks and airlines.',
-        imgSrc: '/riise2025/kn-ravindran-ramamurthy.png',
+        imgSrc: '/riise2025/keynote_speakers/kn-ravindran-ramamurthy.png',
     },
 ];
 
