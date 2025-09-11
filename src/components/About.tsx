@@ -1,5 +1,5 @@
 import React from 'react';
-import { Target, Users, Calendar, Award } from 'lucide-react';
+import { Target, Users, Award } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const About: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           <div className="text-center group">
             <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
               <Target className="w-8 h-8 text-white" />
@@ -37,16 +37,6 @@ const About: React.FC = () => {
           </div>
 
           <div className="text-center group">
-            <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-purple-800 rounded-xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
-              <Calendar className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-xl font-semibold text-slate-800 mb-3">Three Days</h3>
-            <p className="text-slate-600 leading-relaxed">
-              Intensive program featuring presentations, demos, networking, and interactive sessions.
-            </p>
-          </div>
-
-          <div className="text-center group">
             <div className="w-16 h-16 bg-gradient-to-br from-cyan-600 to-cyan-800 rounded-xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
               <Award className="w-8 h-8 text-white" />
             </div>
@@ -58,7 +48,7 @@ const About: React.FC = () => {
         </div>
 
         {/* Event Theme */}
-        <div id="theme" className="bg-gradient-to-r from-blue-600 to-emerald-600 rounded-3xl p-8 lg:p-12 text-white text-center">
+        <div id="theme" className="bg-blue-900 rounded-3xl p-8 lg:p-12 text-white text-center">
           <h3 className="text-3xl lg:text-4xl font-serif font-bold mb-6">
             Event Theme: Building in the times of AI
           </h3>
