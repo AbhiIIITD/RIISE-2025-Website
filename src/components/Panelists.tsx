@@ -45,7 +45,7 @@ const panels = [
         imgSrc: '/riise2025/panelists/p2-rajiv-kumar-narang.png',
       },
       {
-        name: 'Sivakumar Natarajan',
+        name: 'Mr. Sivakumar Natarajan',
         title: 'Chief Operating Officer Zuppa Geo Navigation Technologies Pvt. Ltd.',
         imgSrc: '/riise2025/panelists/p2-sivakumar-natarajan.png',
       },
@@ -54,14 +54,14 @@ const panels = [
   {
     title: "The Next Decade: Building a Society Ready for AI-First Futures",
     moderator: {
-      name: 'Tilak Mishra',
+      name: 'Mr. Tilak Mishra',
       title: 'Wharton alum, VC and policy-driven entrepreneur bridging business, social impact and AI-ready futures.',
       imgSrc: '/riise2025/panelists/p3-tilak-mishra.png',
     },
     panelists: [
       {
         name: 'Ms. Anuka Kumar',
-        title: 'GM Public Affairs @ OPPO, Ex-IBM',
+        title: 'GM Public Affairs @ OPPO',
         imgSrc: '/riise2025/panelists/p3-anuka-kumar.png',
       },
       {
